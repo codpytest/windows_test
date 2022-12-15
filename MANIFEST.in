@@ -1,1 +1,2 @@
-recursive-include codpy *
+exclude src/*.c
+include src/printf.c
