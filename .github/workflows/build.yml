@@ -39,9 +39,9 @@ jobs:
         run: |
           python -m cibuildwheel --output-dir wheelhouse
         env:
-         CIBW_BUILD: cp36-*
+         CIBW_BUILD: cp39-*
          CIBW_SKIP: cp36-win32
-         CIBW_BUILD_VERBOSITY: 2 
+         CIBW_BUILD_VERBOSITY: 3 
       - uses: actions/upload-artifact@v2
         with:
           path: ./wheelhouse/*.whl
