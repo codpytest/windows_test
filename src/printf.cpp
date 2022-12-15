@@ -1,4 +1,9 @@
+#include <pybind11/pybind11.h>
+#include <utility>
+#include <cstdio>
 #include <stdio.h>
+
+namespace py = pybind11;
 
 /**
  * main - prints the phrase with proper grammar,
