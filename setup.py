@@ -5,6 +5,4 @@ __version__ = '0.0.1'
 
 
 
-
-setup()
-# setup(ext_modules=[Extension(name="printf", sources=["src/printf.c"])])
+setup(ext_modules=[Extension(name="printf", sources=["src/printf.c"])])
